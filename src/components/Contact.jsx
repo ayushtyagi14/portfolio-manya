@@ -9,7 +9,7 @@ const Contact = () => {
             Contact Me
           </h2>
           <p className="mt-3 max-w-2xl mx-auto text-[24px] text-gray-700 sm:mt-4">
-            Feel free to reach out to me via email or Instagram:
+            Feel free to reach out to me via email, Instagram, or phone:
           </p>
           <div className="flex md:flex-row flex-col items-center gap-2 justify-center mt-8 text-[20px]">
             <a
@@ -17,6 +17,12 @@ const Contact = () => {
               className="mr-6 text-[#89023E] hover:text-gray-700"
             >
               ✉️ mgandhi1@oldwestbury.edu
+            </a>
+            <a
+              href="tel:+15162734730"
+              className="text-[#89023E] hover:text-gray-700"
+            >
+              📞 +1 (516) 273-4730
             </a>
             <a
               href="https://www.instagram.com/hey.newyorkers/"
@@ -27,6 +33,7 @@ const Contact = () => {
               <img
                 src="https://img.icons8.com/fluency/48/null/instagram-new.png"
                 alt="instagram"
+                className="md:ml-3"
               />
               <span className="md:hidden">Instagram</span>
             </a>
