@@ -1,4 +1,12 @@
 import React, { useState } from "react";
+import madrasImage from "../assets/madras.jpeg";
+import danceImage from "../assets/dance.PNG";
+import micImage from "../assets/mic.JPG";
+import presentationVideo from "../assets/presentation.MP4";
+import posterImage from "../assets/poster.JPG";
+import brochureImage from "../assets/brochure.JPG";
+import flyerImage from "../assets/flyer.JPG";
+import infographicImage from "../assets/infographic.JPG";
 
 const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
@@ -8,49 +16,49 @@ const Projects = () => {
       id: 1,
       title: "Project 1",
       category: "logo",
-      image: "/madras.jpeg",
+      image: madrasImage,
     },
     {
       id: 2,
       title: "Project 2",
       category: "logo",
-      image: "/dance.png",
+      image: danceImage,
     },
     {
       id: 3,
       title: "Project 3",
       category: "logo",
-      image: "/mic.jpg",
+      image: micImage,
     },
     {
       id: 4,
       title: "Project 8",
       category: "presentation",
-      video: "/presentation.mp4",
+      video: presentationVideo,
     },
     {
       id: 5,
       title: "Project 5",
       category: "flyer",
-      image: "/flyer.jpg",
+      image: flyerImage,
     },
     {
       id: 6,
       title: "Project 6",
       category: "brochure",
-      image: "/brochure.jpg",
+      image: brochureImage,
     },
     {
       id: 7,
       title: "Project 4",
       category: "infographic",
-      image: "/infographic.jpg",
+      image: infographicImage,
     },
     {
       id: 8,
       title: "Project 7",
       category: "poster",
-      image: "/poster.jpg",
+      image: posterImage,
     },
   ];
 
@@ -84,7 +92,6 @@ const Projects = () => {
             Here are some examples of my work:
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-4">
-            <img src="/brochure.jpg" alt="brochure" />
             {categories.map((category) => (
               <button
                 key={category}
@@ -114,6 +121,7 @@ const Projects = () => {
                 <video
                   controls
                   autoPlay
+                  muted
                   loop
                   src={project.video}
                   className="rounded-lg shadow-lg"
