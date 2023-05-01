@@ -84,6 +84,7 @@ const Projects = () => {
             Here are some examples of my work:
           </p>
           <div className="flex flex-wrap justify-center gap-4 mt-4">
+            <img src="/brochure.jpg" alt="brochure" />
             {categories.map((category) => (
               <button
                 key={category}
