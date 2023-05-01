@@ -16,12 +16,6 @@ const Hero = () => {
                 creative person and a quick learner.
               </p>
               <div className="mt-5 max-w-md mx-auto flex flex-col gap-2">
-                {/* <a
-                  href="#projects"
-                  className="rounded-full bg-[#89023E] text-white hover:text-[#C7D9B7] py-3 px-6 font-bold text-lg mx-auto"
-                >
-                  View My Work
-                </a> */}
                 <a
                   href="https://drive.google.com/file/d/1X6rKBQJRTYqKuQebHBSYnR4xAnyMJwYe/view?usp=drivesdk"
                   target="_blank"

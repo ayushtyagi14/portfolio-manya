@@ -15,6 +15,7 @@ const Navbar = () => {
               <a
                 href="#"
                 className="text-white hover:text-[#C7D9B7] px-3 py-2 rounded-md font-medium"
+                onClick={() => setMenu(!menu)}
               >
                 Home
               </a>
@@ -22,6 +23,7 @@ const Navbar = () => {
               <a
                 href="#projects"
                 className="text-white hover:text-[#C7D9B7] px-3 py-2 rounded-md font-medium"
+                onClick={() => setMenu(!menu)}
               >
                 Portfolio
               </a>
@@ -29,6 +31,7 @@ const Navbar = () => {
               <a
                 href="#contact"
                 className="text-white hover:text-[#C7D9B7] px-3 py-2 rounded-md font-medium"
+                onClick={() => setMenu(!menu)}
               >
                 Contact
               </a>
@@ -68,6 +71,7 @@ const Navbar = () => {
             <a
               href="#"
               className="text-white hover:text-[#C7D9B7] block px-3 py-2 rounded-md text-base font-medium"
+              onClick={() => setMenu(!menu)}
             >
               Home
             </a>
@@ -75,6 +79,7 @@ const Navbar = () => {
             <a
               href="#projects"
               className="text-white hover:text-[#C7D9B7] block px-3 py-2 rounded-md text-base font-medium"
+              onClick={() => setMenu(!menu)}
             >
               Portfolio
             </a>
@@ -82,6 +87,7 @@ const Navbar = () => {
             <a
               href="#contact"
               className="text-white hover:text-[#C7D9B7] block px-3 py-2 rounded-md text-base font-medium"
+              onClick={() => setMenu(!menu)}
             >
               Contact
             </a>
